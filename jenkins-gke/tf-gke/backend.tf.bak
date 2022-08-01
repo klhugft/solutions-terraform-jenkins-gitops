@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "kemal-infra-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "jenkins"
   }
 }
